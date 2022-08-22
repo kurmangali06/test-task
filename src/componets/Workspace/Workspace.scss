@@ -1,0 +1,18 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+
+  .menu {
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-between;
+  
+
+    div {
+      padding-left: 20px;
+    }
+    .item {
+      cursor: pointer;
+    }
+  }
+}

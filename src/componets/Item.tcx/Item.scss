@@ -1,0 +1,64 @@
+h1 {
+  display: block;
+  align-self: center;
+}
+.basket {
+  background-color: rgba(243, 245, 245, 0.979);
+  padding: 40px;
+  border-radius: 10px;
+  width: 550px;
+  height: 200px;
+  margin-bottom: 30px;
+  cursor: pointer;
+
+}
+.flex-box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+.active {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.note {
+  background-color: rgba(243, 245, 245, 0.979);
+  padding: 40px;
+  border-radius: 10px;
+  width: 550px;
+  height: 200px;
+  margin-bottom: 20px;
+
+
+  .input {
+    margin-bottom: 10px;
+    width: 400px;
+  }
+  button {
+    display: block;
+    background-color: orange;
+    border-radius: 30px;
+    padding: 10px 20px;
+    min-width: 100px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color ease-in-out;
+    border: 1px solid transparent;
+
+    &:hover {
+      background-color: darken(orange, 8%);
+    }
+    
+  &:active {
+    background-color: darken(orange, 12%);
+    transform: translateY(1px);
+  }
+  }
+}
+}
+.seting {
+  display: flex;
+  div {
+    cursor: pointer;
+  }
+}
